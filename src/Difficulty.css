@@ -1,0 +1,21 @@
+.difficulty{
+    width: 63%;
+}
+.difficulty>#box{
+    padding-left: 450px;
+    padding-top: 40px
+    ;
+    display: block;
+    text-align: center;
+}
+.difficulty>p{
+padding-left: 400px;
+}
+.difficulty>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-left: 560px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+.game2 {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+.game2__content {
+    width: 70%;
+    float: left;
+}
+#kaylee {
+    padding-left: 340px;
+    display: block;
+}
+.game2__content > p {
+    padding-left: 340px;
+}
+.game2__sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    float: left;
+    width: 326px;
+    border-left: 0.5px solid #f0f0f0;
+    z-index: 1;
+}
+.game2__sidebar > .container{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.game2__sidebar > .container input:hover{
+    cursor: pointer;
+}
+.checkmark {
+    margin-right: 14px;
+    height: 25px;
+}
+input[type='radio'] :hover{
+    cursor: pointer;
+}

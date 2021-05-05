@@ -1,0 +1,12 @@
+.game3__content{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.game3__content>ul,.game3__content>ul>li{
+    padding-top: 20px;
+    margin-left: -5px;
+
+}
+.game3__content>p{
+    
+}

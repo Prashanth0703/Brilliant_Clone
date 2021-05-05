@@ -1,0 +1,33 @@
+.logicGame{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logicGame__sidebar{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: fixed;
+    right: 50%;
+    width: 9999px;
+    height: 100%;
+    margin-right: 460px;
+    background: #000;
+    /* z-index: 299; */
+}
+.logicGame__sidebar>#arrow{
+    color: white;
+    margin-left: auto;
+    opacity: .5;
+    font-size: 14px;
+    padding: 30px 80px 10px 30px;
+}
+.logicGame__sidebar>#head{
+    color: white;
+    margin-left: auto;
+    opacity: .7;
+    padding: 10px 80px 10px 30px;
+}
+.logicGame__quiz{
+    padding:55px  0 0 0;
+    margin-left: -30px;
+}

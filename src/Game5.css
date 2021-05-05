@@ -1,0 +1,20 @@
+.game5__content {
+    margin-left: 350px;
+    padding-bottom: 300px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.game5__content > ol {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.game5__content > ol > li {
+    line-height: 40px;
+}
+.game5__content > ol {
+    background-color: #fbfbfb;
+    border: 1px solid #d4d4d4;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    width: 600px;
+}

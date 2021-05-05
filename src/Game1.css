@@ -1,0 +1,35 @@
+.game1{
+    display: flex;
+    justify-content: space-around;
+}
+.game1__content{
+    width: 70%;
+}
+.game1__content>ul,.game1__content>ul>li,.game1__content>p{
+    padding-top: 20px;
+    margin-left: 160px;
+
+}
+.game1__content>p,.game1__content>a{
+    margin-left: 320px;
+}
+.game1__sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    float: left;
+    width: 326px;
+    border-left: .5px solid #f0f0f0;
+    z-index: 1;
+}
+.game1__sidebar>#chal{
+    font-weight: 700;
+    padding-top: 10px;
+}
+#lesson{
+    opacity: 0.5;
+    font-size: 14px;
+    padding-top: 10px;
+/* margin-left: 40%; */
+}
